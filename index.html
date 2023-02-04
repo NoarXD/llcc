@@ -1,12 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liengnaboun | Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .container {
+      max-width: 90%;
+      margin: 0 auto;
+    }
+
+    .topnav {
+      background-color: #363333;
+      overflow: hidden;
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font: 17px;
+    }
+
+    .topnav .icon {
+      display: none;
+    }
+
+    .topnav a:hover {
+      background-color: #1fea00;
+      color: white;
+    }
+
+    @media (max-width: 500px) {
+      .topnav a:not(:first-child) {
+        display: none;
+      }
+
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+    }
+    .topnav .responsive {
+      display: block;
+    }
+  </style>
 </head>
+
 <body>
-    
+  <!-- navbar -->
+  <div class="topnav" id="myTopnav">
+    <a href="">Liengnaboun</a>
+    <a href="" class="active">Home</a>
+    <a href="">Contact</a>
+    <a href="">New</a>
+    <a href="">about</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776</a>
+  </div>
+
+  <div class="container">
+    <header>
+      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ipsam?</h1>
+    </header>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        c.className = "topnav"
+      }
+  </script>
 </body>
+
 </html>
