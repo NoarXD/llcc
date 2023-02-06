@@ -8,10 +8,11 @@ nav {
 
 label.logo {
     color: white;
-    font-size: 50px;
+    font-size: calc(20px + 0.5vw);
     line-height: 80px;
-    padding: 0 50px;
+    padding: 0 20px;
     font-weight: bold;
+    margin-left: 5px;
 }
 
 nav ul {
@@ -28,12 +29,13 @@ nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
+    transition: .5s;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: calc(15px + 0.2vw);
     text-transform: uppercase;
     padding: 17px 17px;
     border-radius: 3px;
@@ -57,7 +59,6 @@ nav ul li a {
 
 @media (max-width: 768px) {
     label.logo {
-        font-size: 35px;
         padding-left: 30px;
     }
 
