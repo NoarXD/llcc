@@ -1,0 +1,19 @@
+.btn-1 {
+    display: inline-block;
+    width: 200px;
+    color: white;
+    background-color: #4b4bed;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 15px 15px 0 black;
+    transition: 0.5s;
+}
+.btn-1:hover {
+    width: 220px;
+    box-shadow: 0 0 10px #4b4bed;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: #7575f2;
+}
