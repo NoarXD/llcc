@@ -1,3 +1,9 @@
+/* text */
+.text-ml-1 {
+    font-size: calc(20px + 1.5vw);
+}
+/* end text */
+/* btn */
 .btn-1 {
     display: inline-block;
     width: 200px;
@@ -10,6 +16,7 @@
     box-shadow: 15px 15px 0 black;
     transition: 0.5s;
 }
+
 .btn-1:hover {
     width: 220px;
     box-shadow: 0 0 10px #4b4bed;
@@ -17,3 +24,4 @@
     border-radius: 10px;
     background-color: #7575f2;
 }
+/* end btn */

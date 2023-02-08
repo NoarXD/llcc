@@ -1,0 +1,27 @@
+.story>.item>.content>img {
+    border: 1px solid;
+    width: 90%;
+}
+
+.story {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.story>.item {
+    display: flex;
+    box-sizing: border-box;
+    width: 33.33%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+/* mobile */
+@media (max-width: 500px) {
+    .story>.item {
+        width: 50%;
+    }
+}
